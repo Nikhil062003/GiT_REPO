@@ -1,0 +1,185 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.search-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.user-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.repos-container {
+  margin-bottom: 20px;
+}
+
+.repo-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.repo-item h3 {
+  margin-bottom: 5px;
+}
+
+.pagination {
+  text-align: center;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+
+
+a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-top: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+#user-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#username {
+  margin-bottom: 20px;
+}
+
+#prev-btn:disabled,
+#next-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+#prev-btn,
+#next-btn {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#repos-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.repo-item {
+  width: 300px;
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.repo-item a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-top: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+
+}
+
+
+.repo-item a:hover {
+  text-decoration: underline;
+}
+
+#ptag{
+    background-color: #3498db;
+    color: #fff; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 20px;
+    width: auto;
+    
+}
+
+.Twitter{
+  margin:30px;
+  
+}
+.location{
+  height:20px;
+  width: 18px;
+}
+
+
+.Twitter {
+  display: block;
+  margin-top: 10px;
+}
+
+#search-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px; 
+  cursor: pointer; 
+  border: none; 
+  border-radius: 5px; 
+}
+
+#search-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

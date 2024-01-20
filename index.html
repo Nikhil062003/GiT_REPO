@@ -1,0 +1,31 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+  <title>GitFetch</title>
+</head>
+<body>
+    <div class="container">
+      <h1>GitHub Repositories</h1>
+      <div class="search-container">
+        <label for="username">GitHub Username:</label>
+        <input type="text" placeholder="Enter here..." id="username" />
+        <button id="search-btn">Search</button>
+      </div>
+      <div id="user-section" class="user-info"></div>
+      <div id="repos-section" class="repos-container"></div>
+      <div class="pagination">
+        <button id="prev-btn" ><</button>
+          <span id="currentPage">1</span>
+        <button id="next-btn" >></button>
+      </div>
+
+    </div>
+  <script src="./script.js"></script>
+</body>
+</html>
